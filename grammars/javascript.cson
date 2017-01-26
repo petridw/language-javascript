@@ -1375,7 +1375,7 @@
         ]
       }
       {
-        'begin': '((\\w+)?(html|HTML|Html))\\s*(`)'
+        'begin': '((\\w+)?(html|HTML|Html|template:))\\s*(`)'
         'beginCaptures':
           '1':
             'name': 'entity.name.function.js'
